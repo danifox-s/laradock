@@ -1294,7 +1294,8 @@ RUN set -xe; php -v | grep -q "PHP ${LARADOCK_PHP_VERSION}."
 #--------------------------------------------------------------------------
 #
 
-COPY ./laravel.ini /usr/local/etc/php/conf.d
+COPY ./dednawb.ini /usr/local/etc/php/conf.d/
+COPY ./dednawb.ini /etc/php/${LARADOCK_PHP_VERSION}/cli/conf.d/zalypa.ini
 COPY ./xlaravel.pool.conf /usr/local/etc/php-fpm.d/
 
 USER root

@@ -19,6 +19,9 @@ else # macOS `ls`
 	export LSCOLORS='BxBxhxDxfxhxhxhxhxcxcx'
 fi
 
+#yii2 aliases
+alias yii="php yii"
+
 # List all files colorized in long format
 #alias l="ls -lF ${colorflag}"
 ### MEGA: I want l and la ti return hisdden files
